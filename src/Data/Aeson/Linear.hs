@@ -1,7 +1,7 @@
 {-# LANGUAGE DeriveGeneric #-}
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 
-module Linear.Instances where
+module Data.Aeson.Linear where
 
 import Data.Aeson
   (ToJSON, FromJSON, decode, toEncoding, defaultOptions, genericToEncoding)
