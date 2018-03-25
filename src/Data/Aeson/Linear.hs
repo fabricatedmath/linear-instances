@@ -4,7 +4,7 @@
 module Data.Aeson.Linear where
 
 import Data.Aeson
-  (ToJSON, FromJSON, decode, toEncoding, defaultOptions, genericToEncoding)
+  (ToJSON, FromJSON, toEncoding, defaultOptions, genericToEncoding)
 
 import Linear
 
